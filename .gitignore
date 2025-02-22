@@ -1,1 +1,2 @@
  gitignore files is to ensure that certain files not tracked by Git remain untracked. To stop tracking a file that is currently tracked, use git rm --cached to remove the file from the index
+ gitignore files are used in a git repository to ignore the files and directories which are unnecessary to projects. This will be ignored by the git once the changes as been committed to the Remote repository.
