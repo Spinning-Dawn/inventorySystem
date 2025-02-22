@@ -1,2 +1,2 @@
-# inventorySystem
-This contains Java code that lets a user enter items (Strings) into their inventory( a 2d array) via the scanner class. 
+This is the begging of a project I hope to expand as I develop my programming skills
+Over time I will update and turn this into a full on interactive application
