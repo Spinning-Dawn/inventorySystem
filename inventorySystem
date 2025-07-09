@@ -52,10 +52,8 @@ public class Inventory {
     }
 
     public void removeItem(String item) {
-        /* 
-        Takes item and deletes it at the first found index.
-        If no item is there, the user is told no item was found. 
-        */ 
+        /*  Takes item and deletes it at the first found index.
+        If no item is there, the user is told no item was found. */ 
         int strLen = item.length();
         String realItem = item.substring(7, strLen).trim(); // Trim to remove any extra spaces
         boolean found = false;
@@ -78,9 +76,9 @@ public class Inventory {
     }
 
     public void selectItem(String item){        
-    int strLen = item.length();                                  // gets items length
-    int numTrim = strLen - 1;                                    // takes off the num at end of item
-    String realItem = item.substring(4, numTrim).trim();         // creates real item
+     int strLen = item.length();                                  // gets items length
+     int numTrim = strLen - 1;                                    // takes off the num at end of item
+      String realItem = item.substring(4, numTrim).trim();         // creates real item
          for (int i = 0; i < inventory.length; i++) {
             for (int j = 0; j < inventory[i].length; j++) {
                 if (inventory[i][j] == null){ //************FIGURE OUT HOW TO TURN USER NUM INTO RC COORDINATE************  "Add cookie 3" use for testing
@@ -96,7 +94,7 @@ public class Inventory {
     }
 
     public void printInventory() { // prints out inventory
-    System.out.println("--------INVENTORY-------------------------");
+     System.out.println("--------INVENTORY-------------------------");
         for (int i = 0; i < inventory.length; i++) {
             for (int j = 0; j < inventory[i].length; j++) {
                 if (inventory[i][j] == null) {
