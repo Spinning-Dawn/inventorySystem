@@ -5,7 +5,7 @@ Over time I will update and turn this into a full on interactive application
 
 Author: Chas
 Started: 6/9/2024
-Ended: 12/8/2024/
+Ended: 12/8/2024
 
 Worked on this on and off to practice traversing 2d arrays and modifying elements inside them, 
 and while is was a little hard, I enjoyed working on this.
