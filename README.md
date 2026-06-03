@@ -3,7 +3,7 @@
 This is the begging of a project I hope to expand as I develop my programming skills.
 Over time I will update and turn this into a full on interactive application
 
-Author: Chas
+Author: Dawn
 
 Started: 6/9/2024
 Ended: 12/8/2024
