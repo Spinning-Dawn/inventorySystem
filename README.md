@@ -1,4 +1,4 @@
-# Inventory System
+# Inventory System (WIP)
 
 This is the begging of a project I hope to expand as I develop my programming skills.
 
